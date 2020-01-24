@@ -1,4 +1,4 @@
-
+Example Use
 ```javascript
 import sql 'run-sql'
 
