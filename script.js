@@ -15,7 +15,7 @@ export default{
                 request.query(query,onResponse)
             }  
         }
-        
+
         function onResponse(err,res){
             if(callback){callback(err,res)}
             sql.close()
