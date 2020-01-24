@@ -1,6 +1,6 @@
 {
   "name": "run-sequel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple way to interface with SQL Server",
   "main": "script.js",
   "scripts": {
