@@ -11,6 +11,10 @@
     "sql",
     "mssql"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbarnhill/run-sql"
+  },
   "author": "Tyler Barnhill",
   "license": "MIT",
   "dependencies": {
