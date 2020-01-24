@@ -2,7 +2,7 @@ let sql = require ('mssql')
 
 exports.conn = {}
 exports.run = function(query,callback){
-
+    sql.conn = exports.conn
     let pool = new sql.ConnectionPool(exports.conn)
     pool.connect(onConnect)
 
@@ -22,5 +22,3 @@ exports.run = function(query,callback){
     }
 
 }
-
-
