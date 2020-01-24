@@ -1,6 +1,6 @@
 Example Use
 ```javascript
-import sql 'run-sql'
+import sql 'run-sequel'
 
 sql.conn={
         user: "your-username",
