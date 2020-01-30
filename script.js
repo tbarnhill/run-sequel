@@ -7,11 +7,11 @@ exports.run = function(query,callback){
     pool.connect(onConnect)
 
     function onConnect(err){
-        var request = new sql.Request(pool)
         if (err) {
             if(callback){callback(err)}
         } 
-        else { 
+        else {
+            let request = new sql.Request(pool)
             request.query(query,onResponse)
         }  
     }
